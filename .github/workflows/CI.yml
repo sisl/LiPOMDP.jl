@@ -30,5 +30,5 @@ jobs:
       - uses: julia-actions/cache@v1
       - name: Install dependencies
         run: julia --project -e 'using Pkg; Pkg.instantiate()'
-      - name: Check package loads
-        run: julia --project -e 'using LitPOMDP; println("✓ LitPOMDP loaded successfully")'
+      - name: Run tests
+        run: julia --project -e 'using Pkg; Pkg.test()'
