@@ -17,7 +17,7 @@ A Julia package for modeling lithium mining operations as a Partially Observable
 
 ```julia
 using Pkg
-Pkg.add(url="https://github.com/sisl/LitPOMDP")
+Pkg.add(url="https://github.com/sisl/LitPOMDP.jl")
 ```
 
 For development:
