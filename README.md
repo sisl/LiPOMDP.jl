@@ -1,4 +1,4 @@
-# LitPOMDP
+# LitPOMDP.jl
 
 [![CI](https://github.com/sisl/LitPOMDP.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/sisl/LitPOMDP.jl/actions/workflows/CI.yml)
 
