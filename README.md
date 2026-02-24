@@ -1,6 +1,6 @@
 # LitPOMDP
 
-[![Build Status](https://github.com/imannaedmonds/LitPOMDP.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/imannaedmonds/LitPOMDP.jl/actions/workflows/CI.yml?query=branch%3Amain)
+[![Build Status](https://github.com/sisl/LitPOMDP/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/sisl/LitPOMDP/actions/workflows/CI.yml?query=branch%3Amain)
 
 A Julia package for modeling lithium mining operations as a Partially Observable Markov Decision Process (POMDP). The framework simulates decision-making under uncertainty for lithium extraction using both Direct Lithium Extraction (DLE) and traditional mining methods.
 
@@ -17,7 +17,7 @@ A Julia package for modeling lithium mining operations as a Partially Observable
 
 ```julia
 using Pkg
-Pkg.add(url="https://github.com/imannaedmonds/LitPOMDP.jl")
+Pkg.add(url="https://github.com/sisl/LitPOMDP")
 ```
 
 For development:
