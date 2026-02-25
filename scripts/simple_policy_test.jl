@@ -4,7 +4,7 @@ using POMCPOW
 using Random
 using Statistics
 using Distributions
-using LitPOMDP
+using LiPOMDPs
 using JSON
 
 """

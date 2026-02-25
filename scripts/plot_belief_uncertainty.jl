@@ -11,7 +11,7 @@ This script analyzes belief uncertainty evolution across time steps for:
 It creates a plot with error bars showing mean ± std deviation.
 """
 
-using LitPOMDP
+using LiPOMDPs
 using Random
 using Statistics
 using POMDPs
@@ -21,7 +21,7 @@ using POMCPOW: POMCPOWPlanner
 using PGFPlots
 
 # Import specific functions from pomdp.jl
-import LitPOMDP: calculate_site_production, calculate_total_production, compute_costs, compute_emissions
+import LiPOMDPs: calculate_site_production, calculate_total_production, compute_costs, compute_emissions
 
 # =============================================================================
 # POLICY CREATION FUNCTION

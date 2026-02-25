@@ -1,4 +1,4 @@
-using LitPOMDP
+using LiPOMDPs
 using POMDPs
 using POMCPOW
 using Random
@@ -7,7 +7,7 @@ using Plots
 using PGFPlotsX
 using Statistics
 
-import LitPOMDP: calculate_total_production, compute_costs, compute_emissions
+import LiPOMDPs: calculate_total_production, compute_costs, compute_emissions
 
 const PGFPLOTSX_PRIMED = Ref(false)
 

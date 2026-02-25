@@ -1,6 +1,6 @@
-# LitPOMDP.jl
+# LiPOMDPs.jl
 
-[![CI](https://github.com/sisl/LitPOMDP.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/sisl/LitPOMDP.jl/actions/workflows/CI.yml)
+[![CI](https://github.com/sisl/LiPOMDPs.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/sisl/LiPOMDPs.jl/actions/workflows/CI.yml)
 
 A Julia package for modeling lithium mining operations as a Partially Observable Markov Decision Process (POMDP). The framework simulates decision-making under uncertainty for lithium extraction using both Direct Lithium Extraction (DLE) and traditional mining methods.
 
@@ -17,7 +17,7 @@ A Julia package for modeling lithium mining operations as a Partially Observable
 
 ```julia
 using Pkg
-Pkg.add(url="https://github.com/sisl/LitPOMDP.jl")
+Pkg.add(url="https://github.com/sisl/LiPOMDPs.jl")
 ```
 
 For development:
@@ -30,7 +30,7 @@ Pkg.instantiate()
 ## Quick Start
 
 ```julia
-using LitPOMDP
+using LiPOMDPs
 using POMDPs
 using POMCPOW
 
@@ -119,4 +119,3 @@ The package supports multiple pricing models:
 - **Type 3**: Exponential pricing - price grows exponentially over time
 - **Type 4**: GBM (Geometric Brownian Motion) - stochastic price evolution with drift and volatility
 - **Type 6**: Historical pricing - uses actual historical lithium price data from 1995-2024
-

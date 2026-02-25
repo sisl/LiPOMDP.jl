@@ -1,5 +1,5 @@
 # Import without other commands doesn't do anything
-using LitPOMDP
+using LiPOMDPs
 using POMDPs
 using POMDPTools
 using POMCPOW

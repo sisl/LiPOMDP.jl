@@ -1,8 +1,8 @@
 using Test
-using LitPOMDP
+using LiPOMDPs
 using POMDPs
 
-@testset "LitPOMDP" begin
+@testset "LiPOMDPs" begin
 
     @testset "Package loads" begin
         @test true  # if we got here, the package loaded

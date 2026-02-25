@@ -1,4 +1,4 @@
-module LitPOMDP
+module LiPOMDPs
 
 # Write your package code here.
 using Parameters

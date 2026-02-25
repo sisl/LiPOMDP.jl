@@ -13,7 +13,7 @@ Key Features:
 - More realistic evaluation on unseen data
 """
 
-using LitPOMDP
+using LiPOMDPs
 using Random
 using Statistics
 using POMDPs
@@ -23,7 +23,7 @@ using POMCPOW: POMCPOWPlanner  # Import POMCPOWPlanner specifically
 using D3Trees
 
 # Import specific functions from pomdp.jl that aren't exported
-import LitPOMDP: calculate_site_production, calculate_total_production, compute_costs, compute_emissions
+import LiPOMDPs: calculate_site_production, calculate_total_production, compute_costs, compute_emissions
 
 
 
